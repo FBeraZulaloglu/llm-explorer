@@ -11,6 +11,7 @@ def filter_data(search_query):
 
 # Streamlit app
 def main():
+    st.image("logo.png", width=200)
     st.title("LLM Explorer - Find the LLM You Need")
 
     # Search input box
